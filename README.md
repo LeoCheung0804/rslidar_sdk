@@ -118,6 +118,7 @@ We offer three ways to compile and run the driver.
 ### 4.1 Compile directly
 
  In this way, user can use ROS facilities(not ROS2) if ROS master node is launched in advance via ```roscore```. Also, rviz can be launched seperately for visualization. 
+ Open the *CMakeLists.txt* in the project，modify the line  on top of the file **set(COMPILE_METHOD CATKIN)** to **set(COMPILE_METHOD ORIGINAL)**.
 
 ```sh
 cd rslidar_sdk
